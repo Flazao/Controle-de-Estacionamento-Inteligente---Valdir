@@ -1,0 +1,14 @@
+{
+    "name": "smart/parking-system",
+    "description": "Smart Parking System using PHP, SOLID and Clean Code.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application/",
+            "Domain\\": "Domain/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}
