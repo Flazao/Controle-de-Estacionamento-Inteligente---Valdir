@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS veiculos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    placa TEXT NOT NULL UNIQUE,
+    tipo TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS movimentacoes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    placa TEXT NOT NULL,
+    tipo TEXT NOT NULL,
+    data_entrada DATETIME NOT NULL,
+    data_saida DATETIME,
+    valor_pago REAL
+);

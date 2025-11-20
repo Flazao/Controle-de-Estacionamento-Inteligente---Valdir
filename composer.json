@@ -1,11 +1,13 @@
 {
-  "name": "app/controle-estacionamento",
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
+    "name": "grupo/controle-estacionamento",
+    "autoload": {
+        "psr-4": {
+            "App\\": "Application/",
+            "Domain\\": "Domain/",
+            "Infra\\": "Infra/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
     }
-  },
-  "require": {
-    "php": "^8.2"
-  }
 }
