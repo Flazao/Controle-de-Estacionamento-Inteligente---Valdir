@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'app/controle-estacionamento',
+        'name' => 'grupo/controle-estacionamento',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c481bf49781007535d7759060a83630416557392',
+        'reference' => 'f31331908da528b7307195fb305a0adcc49aafa3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'app/controle-estacionamento' => array(
+        'grupo/controle-estacionamento' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c481bf49781007535d7759060a83630416557392',
+            'reference' => 'f31331908da528b7307195fb305a0adcc49aafa3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
